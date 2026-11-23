@@ -1,6 +1,6 @@
 # Pourquoi démontrer l'hypothèse de Riemann serait une dinguerie… même pour la vie de tous les jours ?
 
-Vidéo explicative (≈ 10 min, 1080p, 30 i/s, MP4, sous-titres français incrustés, sans voix off)
+Vidéo explicative (≈ 10 min, 1080p, 30 i/s, MP4) avec **voix off française** et sous-titres français incrustés
 réalisée avec **Manim Community Edition 0.19.1**.
 
 | Fichier | Rôle |
@@ -8,6 +8,7 @@ réalisée avec **Manim Community Edition 0.19.1**.
 | `riemann.mp4` | la vidéo finale |
 | `riemann.py` | code source commenté des 8 scènes |
 | `precompute.py` | calculs mathématiques (mpmath) → `data.npz` |
+| `voix.py` | voix off : texte affiché → texte prononcé, synthèse Kokoro hors ligne (cache dans `voix/`) |
 | `sous-titres.txt` | tous les sous-titres, scène par scène |
 | `riemann.srt` | les mêmes sous-titres, synchronisés (fichier séparé, optionnel) |
 | `build.sh` | rendu des 8 scènes puis assemblage avec ffmpeg |
@@ -28,7 +29,7 @@ réalisée avec **Manim Community Edition 0.19.1**.
 
 ## Refaire la vidéo
 ```bash
-pip install manim==0.19.1 mpmath sympy scipy   # + ffmpeg et LaTeX (texlive)
+pip install manim==0.19.1 mpmath sympy scipy kokoro-onnx num2words   # + ffmpeg et LaTeX (texlive)
 ./build.sh
 ```
 
@@ -39,3 +40,13 @@ pip install manim==0.19.1 mpmath sympy scipy   # + ffmpeg et LaTeX (texlive)
   Des tests certains sans hypothèse existent (AKS 2002, ECPP) mais sont plus lents en pratique.
 - Écarts entre premiers O(√p ln p) sous RH (Cramér 1920) ; critère de Robin (1984).
 - La sécurité de RSA repose sur la difficulté de factoriser : une preuve de RH ne la remettrait pas en cause.
+
+## Voix off
+La voix lit chaque sous-titre au moment où il apparaît ; la durée d'affichage de chaque
+sous-titre s'allonge automatiquement si la phrase prononcée est plus longue que le temps
+de lecture. `voix.py` convertit les symboles pour l'oral (π(x) → « pi de x », √x → « racine
+de x », Re(s) = 1/2 → « partie réelle de s égale un demi », nombres en toutes lettres…).
+
+Crédits : synthèse vocale [Kokoro-82M](https://github.com/hexgrad/kokoro) (Apache 2.0) via
+[kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx), voix française `ff_siwis`
+entraînée sur le corpus SIWIS (Université d'Édimbourg, licence CC-BY 4.0).

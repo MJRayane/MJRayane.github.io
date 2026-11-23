@@ -9,6 +9,13 @@ SCENES=(Scene1Atomes Scene2Chaos Scene3Escalier Scene4Paysage
 OUT=media/videos/riemann/1080p30
 
 [ -f data.npz ] || python3 precompute.py          # données mathématiques (≈ 1 min)
+
+# modèle de synthèse vocale Kokoro (voix off), ≈ 350 Mo, téléchargé une fois
+mkdir -p modeles
+URL=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0
+for f in kokoro-v1.0.onnx voices-v1.0.bin; do
+  [ -f modeles/$f ] || curl -sSL -o modeles/$f $URL/$f
+done
 python3 lint_subs.py                               # ≤ 12 mots par ligne de sous-titre
 
 # 1) rendu de chaque scène séparément (les scènes 3D sont les plus longues)
@@ -21,7 +28,7 @@ printf '%s\n' Scene4Paysage Scene8Conclusion Scene7Dominos Scene1Atomes \
 : > concat.txt
 for S in "${SCENES[@]}"; do echo "file '$OUT/$S.mp4'" >> concat.txt; done
 ffmpeg -v error -y -f concat -safe 0 -i concat.txt \
-       -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -r 30 -movflags +faststart riemann.mp4
+       -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -r 30 -c:a aac -b:a 160k -ar 48000 -movflags +faststart riemann.mp4
 
 # 3) sous-titres : texte brut + .srt synchronisé
 python3 make_subs.py

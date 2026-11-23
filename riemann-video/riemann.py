@@ -23,6 +23,10 @@ import numpy as np
 from manim import *
 from scipy.special import expi
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from voix import voix  # voix off (Kokoro, hors ligne)
+
 # --------------------------------------------------------------------------
 # Style global
 # --------------------------------------------------------------------------
@@ -112,6 +116,11 @@ class SousTitres:
         bg = BackgroundRectangle(rows, color=FOND, fill_opacity=0.82, buff=0.16)
         return VGroup(bg, rows).to_edge(DOWN, buff=0.28)
 
+    def son(self, wav: str, decalage: float = 0.0):
+        # Ajout direct au fichier de sortie : Scene.add_sound() ignore le son
+        # si l'animation précédente sortait du cache de Manim.
+        self.renderer.file_writer.add_sound(wav, self._now() + decalage)
+
     def _now(self) -> float:
         return self.renderer.time
 
@@ -128,9 +137,13 @@ class SousTitres:
             self.play(FadeOut(self._sub), run_time=0.25)
             self._log.append(dict(start=self._sub_start, end=self._now(), text=self._sub_text))
         self._sub_start = self._now()
+        # voix off : la phrase démarre avec le sous-titre, qui reste affiché
+        # au moins le temps de la dire (+ une petite respiration)
+        wav, duree = voix(text)
+        self.son(wav)
         self.play(FadeIn(new), run_time=0.3)
         self._sub, self._sub_text = new, text
-        self._sub_until = self._now() + self.temps_lecture(text) + extra
+        self._sub_until = self._sub_start + max(0.3 + self.temps_lecture(text), duree + 0.45) + extra
 
     def end_subs(self, fade_all: bool = True):
         """Fin de scène : laisse lire le dernier sous-titre, puis fondu."""
@@ -214,8 +227,11 @@ class Scene1Atomes(SousTitres, ThreeDScene):
             T("…même pour la vie de tous les jours ?", 38, BLEU),
         ).arrange(DOWN, buff=0.3)
         self.fix(titre)
+        wav, duree = voix("Pourquoi démontrer l'hypothèse de Riemann serait une dinguerie, "
+                          "même pour la vie de tous les jours ?")
+        self.son(wav, 0.4)
         self.play(LaggedStart(*[FadeIn(l, shift=0.2 * UP) for l in titre], lag_ratio=0.35), run_time=3)
-        self.wait(2.5)
+        self.wait(max(2.5, duree + 0.4 + 0.8 - 3))
         self.play(FadeOut(titre), run_time=1)
 
         self.init_subs("1 · Les atomes des nombres")
