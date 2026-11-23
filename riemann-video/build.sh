@@ -25,8 +25,16 @@ printf '%s\n' Scene4Paysage Scene8Conclusion Scene7Dominos Scene1Atomes \
   xargs -P 4 -I{} sh -c 'manim -qh --fps 30 riemann.py {} > logs/{}.log 2>&1 && echo "OK {}"'
 
 # 2) assemblage
+# La piste audio de chaque scène s'arrête à la dernière phrase : on la complète
+# par du silence jusqu'à la durée exacte de la vidéo, sinon la voix prendrait
+# de l'avance sur l'image scène après scène.
+mkdir -p $OUT/pad
 : > concat.txt
-for S in "${SCENES[@]}"; do echo "file '$OUT/$S.mp4'" >> concat.txt; done
+for S in "${SCENES[@]}"; do
+  D=$(ffprobe -v error -select_streams v:0 -show_entries stream=duration -of csv=p=0 $OUT/$S.mp4)
+  ffmpeg -v error -y -i $OUT/$S.mp4 -c:v copy -af "apad,aresample=48000" -c:a aac -b:a 192k -t $D $OUT/pad/$S.mp4
+  echo "file '$OUT/pad/$S.mp4'" >> concat.txt
+done
 ffmpeg -v error -y -f concat -safe 0 -i concat.txt \
        -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -r 30 -c:a aac -b:a 160k -ar 48000 -movflags +faststart riemann.mp4
 
