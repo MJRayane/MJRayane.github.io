@@ -1,0 +1,50 @@
+{
+ "duration": 48.299999999999834,
+ "subs": [
+  {
+   "start": 2.8,
+   "end": 6.1666666666666545,
+   "text": "Résumons ce qu'apporterait une preuve."
+  },
+  {
+   "start": 6.1666666666666545,
+   "end": 11.466666666666637,
+   "text": "1. Les premiers sont aussi réguliers que possible : c'est sûr."
+  },
+  {
+   "start": 11.466666666666637,
+   "end": 16.76666666666666,
+   "text": "2. Des milliers de théorèmes « si Riemann… » deviennent vrais."
+  },
+  {
+   "start": 16.76666666666666,
+   "end": 22.700000000000287,
+   "text": "3. Des algorithmes passent\nde « très probable » à « garanti »."
+  },
+  {
+   "start": 22.700000000000287,
+   "end": 27.033333333333836,
+   "text": "4. Et sans doute de nouveaux outils mathématiques."
+  },
+  {
+   "start": 27.033333333333836,
+   "end": 31.366666666667385,
+   "text": "Posée en 1859, l'hypothèse n'est toujours pas démontrée."
+  },
+  {
+   "start": 31.366666666667385,
+   "end": 36.66666666666715,
+   "text": "L'Institut Clay offre 1 million de dollars\nà qui la démontrera."
+  },
+  {
+   "start": 36.66666666666715,
+   "end": 41.966666666666846,
+   "text": "Une dinguerie ? Oui : percer l'ordre caché des nombres premiers."
+  },
+  {
+   "start": 41.966666666666846,
+   "end": 47.49999999999989,
+   "text": "La partition est là, sous nos yeux. Reste à la comprendre."
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+« Pourquoi démontrer l'hypothèse de Riemann serait une dinguerie,
+   même pour la vie de tous les jours ? »
+
+Sous-titres complets (dans l'ordre d'apparition)
+
+============================================================
+1 · Les atomes des nombres
+============================================================
+Commençons simplement : de quoi sont faits les nombres ?
+Voici 12 petits cubes : c'est le nombre 12.
+On peut le couper en 2 parts égales de 6.
+Chaque 6 se coupe encore : 2 parts de 3.
+Et 3 ? Impossible de le couper en parts égales.
+2 et 3 sont des nombres premiers : / on ne peut les diviser que par 1 et eux-mêmes.
+Essayons avec 7 cubes.
+En 2 rangées ? Il reste toujours un cube tout seul.
+En 3 rangées ? Encore un cube de trop.
+7 ne se casse pas : c'est un nombre premier.
+Les nombres premiers : 2, 3, 5, 7, 11, 13… / Il y en a une infinité.
+Tout entier à partir de 2 s'obtient en multipliant des premiers.
+Et d'une seule façon : c'est comme une recette unique.
+Les premiers sont les briques, les « atomes », / de tous les nombres.
+
+============================================================
+2 · Le chaos apparent
+============================================================
+Plaçons tous les nombres premiers jusqu'à 200 / sur une ligne.
+Au début, ils sont serrés. Plus loin, ils s'espacent.
+Mais les écarts entre eux sautent dans tous les sens.
+Regardons de plus près, entre 87 et 133.
+Les écarts : 8, 4, 2, 4, 2, 4… puis 14 !
+Entre 113 et 127 : un grand trou, aucun premier.
+Juste avant, 101 et 103 se collent presque.
+Aucune formule simple ne donne le premier suivant.
+On ne sait pas prédire le prochain nombre premier.
+Ils semblent tomber au hasard… Et pourtant !
+
+============================================================
+3 · L'escalier des nombres premiers
+============================================================
+Comptons les premiers jusqu'à x. On note ce nombre π(x).
+Chaque nouveau premier ajoute une marche : c'est un escalier.
+Gauss avait deviné une courbe lisse qui le suit : li(x).
+Mais il reste un écart entre l'escalier et la courbe.
+Toute la question : jusqu'où cet écart peut-il grandir ?
+Prenons du recul : jusqu'à 10 000.
+De loin, l'escalier et la courbe se confondent presque.
+Zoomons maintenant sur l'écart lui-même.
+Il hésite et zigzague, mais reste dans une zone étroite.
+L'hypothèse de Riemann revient exactement à dire ceci :
+l'écart ne grandit jamais beaucoup plus vite que √x.
+Et on sait qu'il ne peut pas rester beaucoup plus petit.
+Bref : les premiers seraient aussi réguliers que possible.
+Exemple : jusqu'à 1 milliard, il y a / 50 847 534 nombres premiers.
+La courbe li(x) ne se trompe que d'environ 1 700.
+
+============================================================
+4 · Le paysage de Riemann
+============================================================
+1859 : Bernhard Riemann publie un court article.
+Il y étudie une drôle de machine : la fonction zêta, ζ.
+Euler l'avait vu : on peut l'écrire avec tous les premiers.
+Riemann l'étend à tout le plan des nombres « complexes ».
+Chaque point du sol est un nombre s. / La hauteur montre la taille de ζ(s).
+(Les sommets trop hauts sont aplatis, pour la lisibilité.)
+Regardez ces creux, où le paysage touche le sol…
+Là, ζ vaut exactement zéro. / Ce sont les « zéros » de ζ.
+Survolons-les. Où sont-ils placés ?
+Tous exactement sur la même droite : Re(s) = 1/2.
+L'hypothèse : TOUS les zéros « non triviaux » / sont sur cette droite.
+(Il existe aussi des zéros « triviaux », faciles, ailleurs.)
+On a vérifié plus de 10 000 milliards de zéros par ordinateur.
+Tous sur la droite ! Mais il y en a une infinité.
+Vérifier des milliards de cas, ce n'est pas démontrer.
+
+============================================================
+5 · La musique des nombres premiers
+============================================================
+Riemann découvre un lien stupéfiant entre ces zéros / et les premiers.
+Chaque zéro produit une onde, comme une note de musique.
+Plus le zéro est haut sur la droite, / plus sa note est aiguë.
+Additionnons ces notes, et écoutons ce qu'elles jouent.
+En gris : le vrai escalier π(x) qu'on veut retrouver.
+En bleu : la courbe lisse, sans aucune onde.
+Ajoutons 1 onde…
+Puis 5 ondes…
+Puis 20 ondes : les marches se dessinent.
+Et 100 ondes : l'escalier des premiers réapparaît !
+Chaque marche tombe pile sur un nombre premier.
+Les zéros sont la « partition » cachée des nombres premiers.
+C'est pour ça que leur position compte autant.
+Si un seul zéro quittait la droite, sa note serait trop forte…
+…et l'escalier s'écarterait bien plus de la courbe lisse.
+Sur la droite, toutes les notes restent les plus douces possibles.
+
+============================================================
+6 · Et dans la vie de tous les jours ?
+============================================================
+Un paiement par carte, un site web, un message WhatsApp…
+Tout cela est protégé par du chiffrement.
+Beaucoup de ces systèmes reposent sur de grands nombres premiers.
+Exemple : une clé RSA cache deux premiers / d'environ 300 chiffres chacun.
+Pour en fabriquer, l'ordinateur tire un grand nombre au hasard…
+…puis il teste s'il est premier. C'est très rapide.
+Le test de Miller-Rabin répond « premier » / avec une chance d'erreur infime.
+Ça fonctionne très bien, depuis des décennies. Aucun souci.
+Mais la réponse est « très probable », pas « certaine ».
+Avec l'hypothèse de Riemann (version « généralisée »)…
+…le test de Miller devient une preuve, rapide et garantie.
+(D'autres tests certains existent, mais ils sont souvent plus lents.)
+Attention, idée reçue : une preuve ne casserait PAS / le chiffrement.
+Sa sécurité repose sur d'autres problèmes, comme factoriser. / Pas sur Riemann.
+Ce qui changerait : certaines garanties passeraient / de « très probable » à « certain ».
+
+============================================================
+7 · L'effet domino
+============================================================
+Des mathématiciens ont écrit des milliers de résultats / qui commencent ainsi :
+« Si l'hypothèse de Riemann est vraie, alors… »
+Par exemple : un test de primalité garanti…
+…une borne précise sur l'écart de l'escalier π(x)…
+…des écarts entre premiers jamais trop grands…
+…ou une inégalité sur les diviseurs des entiers.
+Tous ces résultats attendent, suspendus à une seule question.
+Un mur entier de « si ». / Et si quelqu'un démontrait Riemann ?
+Tous basculeraient d'un coup : « VRAI ».
+Un seul théorème en débloquerait des milliers.
+Et la méthode de preuve serait sans doute un trésor en soi.
+Pour Fermat, la preuve de Wiles, en 1994, / a créé des outils tout neufs.
+Une preuve de Riemann ouvrirait sûrement des chemins inconnus.
+
+============================================================
+8 · Conclusion
+============================================================
+Résumons ce qu'apporterait une preuve.
+1. Les premiers sont aussi réguliers que possible : c'est sûr.
+2. Des milliers de théorèmes « si Riemann… » deviennent vrais.
+3. Des algorithmes passent / de « très probable » à « garanti ».
+4. Et sans doute de nouveaux outils mathématiques.
+Posée en 1859, l'hypothèse n'est toujours pas démontrée.
+L'Institut Clay offre 1 million de dollars / à qui la démontrera.
+Une dinguerie ? Oui : percer l'ordre caché des nombres premiers.
+La partition est là, sous nos yeux. Reste à la comprendre.

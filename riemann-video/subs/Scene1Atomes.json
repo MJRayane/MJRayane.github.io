@@ -1,0 +1,75 @@
+{
+ "duration": 83.3333333333323,
+ "subs": [
+  {
+   "start": 7.3,
+   "end": 12.299999999999992,
+   "text": "Commençons simplement : de quoi sont faits les nombres ?"
+  },
+  {
+   "start": 12.299999999999992,
+   "end": 16.966666666666693,
+   "text": "Voici 12 petits cubes : c'est le nombre 12."
+  },
+  {
+   "start": 16.966666666666693,
+   "end": 21.933333333333607,
+   "text": "On peut le couper en 2 parts égales de 6."
+  },
+  {
+   "start": 21.933333333333607,
+   "end": 26.90000000000052,
+   "text": "Chaque 6 se coupe encore : 2 parts de 3."
+  },
+  {
+   "start": 26.90000000000052,
+   "end": 31.866666666667435,
+   "text": "Et 3 ? Impossible de le couper en parts égales."
+  },
+  {
+   "start": 31.866666666667435,
+   "end": 41.40000000000024,
+   "text": "2 et 3 sont des nombres premiers :\non ne peut les diviser que par 1 et eux-mêmes."
+  },
+  {
+   "start": 41.40000000000024,
+   "end": 44.43333333333346,
+   "text": "Essayons avec 7 cubes."
+  },
+  {
+   "start": 44.43333333333346,
+   "end": 49.699999999999925,
+   "text": "En 2 rangées ? Il reste toujours un cube tout seul."
+  },
+  {
+   "start": 49.699999999999925,
+   "end": 54.33333333333306,
+   "text": "En 3 rangées ? Encore un cube de trop."
+  },
+  {
+   "start": 54.33333333333306,
+   "end": 59.299999999999535,
+   "text": "7 ne se casse pas : c'est un nombre premier."
+  },
+  {
+   "start": 59.299999999999535,
+   "end": 66.16666666666603,
+   "text": "Les nombres premiers : 2, 3, 5, 7, 11, 13…\nIl y en a une infinité."
+  },
+  {
+   "start": 66.16666666666603,
+   "end": 71.4333333333325,
+   "text": "Tout entier à partir de 2 s'obtient en multipliant des premiers."
+  },
+  {
+   "start": 71.4333333333325,
+   "end": 76.39999999999914,
+   "text": "Et d'une seule façon : c'est comme une recette unique."
+  },
+  {
+   "start": 76.39999999999914,
+   "end": 82.53333333333237,
+   "text": "Les premiers sont les briques, les « atomes »,\nde tous les nombres."
+  }
+ ]
+}

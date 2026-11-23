@@ -1,0 +1,55 @@
+{
+ "duration": 51.86666666666686,
+ "subs": [
+  {
+   "start": 0.7999999999999999,
+   "end": 8.866666666666646,
+   "text": "Plaçons tous les nombres premiers jusqu'à 200\nsur une ligne."
+  },
+  {
+   "start": 8.866666666666646,
+   "end": 13.499999999999977,
+   "text": "Au début, ils sont serrés. Plus loin, ils s'espacent."
+  },
+  {
+   "start": 13.499999999999977,
+   "end": 18.466666666666654,
+   "text": "Mais les écarts entre eux sautent dans tous les sens."
+  },
+  {
+   "start": 18.466666666666654,
+   "end": 22.766666666666808,
+   "text": "Regardons de plus près, entre 87 et 133."
+  },
+  {
+   "start": 22.766666666666808,
+   "end": 28.366666666667037,
+   "text": "Les écarts : 8, 4, 2, 4, 2, 4… puis 14 !"
+  },
+  {
+   "start": 28.366666666667037,
+   "end": 33.30000000000043,
+   "text": "Entre 113 et 127 : un grand trou, aucun premier."
+  },
+  {
+   "start": 33.30000000000043,
+   "end": 37.60000000000033,
+   "text": "Juste avant, 101 et 103 se collent presque."
+  },
+  {
+   "start": 37.60000000000033,
+   "end": 41.9000000000003,
+   "text": "Aucune formule simple ne donne le premier suivant."
+  },
+  {
+   "start": 41.9000000000003,
+   "end": 46.5333333333336,
+   "text": "On ne sait pas prédire le prochain nombre premier."
+  },
+  {
+   "start": 46.5333333333336,
+   "end": 51.06666666666692,
+   "text": "Ils semblent tomber au hasard… Et pourtant !"
+  }
+ ]
+}

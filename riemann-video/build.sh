@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Rendu complet : 8 scènes en 1080p30, puis assemblage dans riemann.mp4
+# Usage : ./build.sh            (4 scènes rendues en parallèle)
+set -euo pipefail
+cd "$(dirname "$0")"
+
+SCENES=(Scene1Atomes Scene2Chaos Scene3Escalier Scene4Paysage
+        Scene5Musique Scene6Quotidien Scene7Dominos Scene8Conclusion)
+OUT=media/videos/riemann/1080p30
+
+[ -f data.npz ] || python3 precompute.py          # données mathématiques (≈ 1 min)
+python3 lint_subs.py                               # ≤ 12 mots par ligne de sous-titre
+
+# 1) rendu de chaque scène séparément (les scènes 3D sont les plus longues)
+mkdir -p logs
+printf '%s\n' Scene4Paysage Scene8Conclusion Scene7Dominos Scene1Atomes \
+              Scene3Escalier Scene5Musique Scene6Quotidien Scene2Chaos |
+  xargs -P 4 -I{} sh -c 'manim -qh --fps 30 riemann.py {} > logs/{}.log 2>&1 && echo "OK {}"'
+
+# 2) assemblage
+: > concat.txt
+for S in "${SCENES[@]}"; do echo "file '$OUT/$S.mp4'" >> concat.txt; done
+ffmpeg -v error -y -f concat -safe 0 -i concat.txt \
+       -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -r 30 -movflags +faststart riemann.mp4
+
+# 3) sous-titres : texte brut + .srt synchronisé
+python3 make_subs.py
+echo "Terminé : riemann.mp4"

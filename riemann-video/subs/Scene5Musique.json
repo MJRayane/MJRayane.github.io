@@ -1,0 +1,85 @@
+{
+ "duration": 84.06666666666543,
+ "subs": [
+  {
+   "start": 0.7999999999999999,
+   "end": 6.066666666666666,
+   "text": "Riemann découvre un lien stupéfiant entre ces zéros\net les premiers."
+  },
+  {
+   "start": 6.066666666666666,
+   "end": 13.233333333333308,
+   "text": "Chaque zéro produit une onde, comme une note de musique."
+  },
+  {
+   "start": 13.233333333333308,
+   "end": 19.133333333333315,
+   "text": "Plus le zéro est haut sur la droite,\nplus sa note est aiguë."
+  },
+  {
+   "start": 19.133333333333315,
+   "end": 25.633333333333454,
+   "text": "Additionnons ces notes, et écoutons ce qu'elles jouent."
+  },
+  {
+   "start": 25.633333333333454,
+   "end": 30.566666666666915,
+   "text": "En gris : le vrai escalier π(x) qu'on veut retrouver."
+  },
+  {
+   "start": 30.566666666666915,
+   "end": 35.20000000000026,
+   "text": "En bleu : la courbe lisse, sans aucune onde."
+  },
+  {
+   "start": 35.20000000000026,
+   "end": 37.96666666666681,
+   "text": "Ajoutons 1 onde…"
+  },
+  {
+   "start": 37.96666666666681,
+   "end": 41.533333333333275,
+   "text": "Puis 5 ondes…"
+  },
+  {
+   "start": 41.533333333333275,
+   "end": 46.09999999999968,
+   "text": "Puis 20 ondes : les marches se dessinent."
+  },
+  {
+   "start": 46.09999999999968,
+   "end": 53.666666666665975,
+   "text": "Et 100 ondes : l'escalier des premiers réapparaît !"
+  },
+  {
+   "start": 53.666666666665975,
+   "end": 57.9666666666658,
+   "text": "Chaque marche tombe pile sur un nombre premier."
+  },
+  {
+   "start": 57.9666666666658,
+   "end": 63.23333333333244,
+   "text": "Les zéros sont la « partition » cachée des nombres premiers."
+  },
+  {
+   "start": 63.23333333333244,
+   "end": 67.53333333333241,
+   "text": "C'est pour ça que leur position compte autant."
+  },
+  {
+   "start": 67.53333333333241,
+   "end": 73.1333333333322,
+   "text": "Si un seul zéro quittait la droite, sa note serait trop forte…"
+  },
+  {
+   "start": 73.1333333333322,
+   "end": 77.7666666666655,
+   "text": "…et l'escalier s'écarterait bien plus de la courbe lisse."
+  },
+  {
+   "start": 77.7666666666655,
+   "end": 83.26666666666549,
+   "text": "Sur la droite, toutes les notes restent les plus douces possibles."
+  }
+ ]
+}

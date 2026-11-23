@@ -1,0 +1,80 @@
+{
+ "duration": 94.47333333333054,
+ "subs": [
+  {
+   "start": 0.8,
+   "end": 5.109999999999999,
+   "text": "1859 : Bernhard Riemann publie un court article."
+  },
+  {
+   "start": 5.109999999999999,
+   "end": 10.7,
+   "text": "Il y étudie une drôle de machine : la fonction zêta, ζ."
+  },
+  {
+   "start": 10.7,
+   "end": 15.969999999999999,
+   "text": "Euler l'avait vu : on peut l'écrire avec tous les premiers."
+  },
+  {
+   "start": 15.969999999999999,
+   "end": 21.24,
+   "text": "Riemann l'étend à tout le plan des nombres « complexes »."
+  },
+  {
+   "start": 21.24,
+   "end": 27.806666666666978,
+   "text": "Chaque point du sol est un nombre s.\nLa hauteur montre la taille de ζ(s)."
+  },
+  {
+   "start": 27.806666666666978,
+   "end": 32.47333333333383,
+   "text": "(Les sommets trop hauts sont aplatis, pour la lisibilité.)"
+  },
+  {
+   "start": 32.47333333333383,
+   "end": 42.139999999999944,
+   "text": "Regardez ces creux, où le paysage touche le sol…"
+  },
+  {
+   "start": 42.139999999999944,
+   "end": 48.03999999999977,
+   "text": "Là, ζ vaut exactement zéro.\nCe sont les « zéros » de ζ."
+  },
+  {
+   "start": 48.03999999999977,
+   "end": 56.60666666666595,
+   "text": "Survolons-les. Où sont-ils placés ?"
+  },
+  {
+   "start": 56.60666666666595,
+   "end": 66.57333333333212,
+   "text": "Tous exactement sur la même droite : Re(s) = 1/2."
+  },
+  {
+   "start": 66.57333333333212,
+   "end": 72.50666666666511,
+   "text": "L'hypothèse : TOUS les zéros « non triviaux »\nsont sur cette droite."
+  },
+  {
+   "start": 72.50666666666511,
+   "end": 77.50666666666483,
+   "text": "(Il existe aussi des zéros « triviaux », faciles, ailleurs.)"
+  },
+  {
+   "start": 77.50666666666483,
+   "end": 83.13999999999784,
+   "text": "On a vérifié plus de 10 000 milliards de zéros par ordinateur."
+  },
+  {
+   "start": 83.13999999999784,
+   "end": 88.77333333333085,
+   "text": "Tous sur la droite ! Mais il y en a une infinité."
+  },
+  {
+   "start": 88.77333333333085,
+   "end": 93.6733333333306,
+   "text": "Vérifier des milliards de cas, ce n'est pas démontrer."
+  }
+ ]
+}

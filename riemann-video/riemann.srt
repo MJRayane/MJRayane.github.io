@@ -1,0 +1,447 @@
+1
+00:00:07,300 --> 00:00:12,300
+Commençons simplement : de quoi sont faits les nombres ?
+
+2
+00:00:12,300 --> 00:00:16,967
+Voici 12 petits cubes : c'est le nombre 12.
+
+3
+00:00:16,967 --> 00:00:21,933
+On peut le couper en 2 parts égales de 6.
+
+4
+00:00:21,933 --> 00:00:26,900
+Chaque 6 se coupe encore : 2 parts de 3.
+
+5
+00:00:26,900 --> 00:00:31,867
+Et 3 ? Impossible de le couper en parts égales.
+
+6
+00:00:31,867 --> 00:00:41,400
+2 et 3 sont des nombres premiers :
+on ne peut les diviser que par 1 et eux-mêmes.
+
+7
+00:00:41,400 --> 00:00:44,433
+Essayons avec 7 cubes.
+
+8
+00:00:44,433 --> 00:00:49,700
+En 2 rangées ? Il reste toujours un cube tout seul.
+
+9
+00:00:49,700 --> 00:00:54,333
+En 3 rangées ? Encore un cube de trop.
+
+10
+00:00:54,333 --> 00:00:59,300
+7 ne se casse pas : c'est un nombre premier.
+
+11
+00:00:59,300 --> 00:01:06,167
+Les nombres premiers : 2, 3, 5, 7, 11, 13…
+Il y en a une infinité.
+
+12
+00:01:06,167 --> 00:01:11,433
+Tout entier à partir de 2 s'obtient en multipliant des premiers.
+
+13
+00:01:11,433 --> 00:01:16,400
+Et d'une seule façon : c'est comme une recette unique.
+
+14
+00:01:16,400 --> 00:01:22,533
+Les premiers sont les briques, les « atomes »,
+de tous les nombres.
+
+15
+00:01:24,133 --> 00:01:32,200
+Plaçons tous les nombres premiers jusqu'à 200
+sur une ligne.
+
+16
+00:01:32,200 --> 00:01:36,833
+Au début, ils sont serrés. Plus loin, ils s'espacent.
+
+17
+00:01:36,833 --> 00:01:41,800
+Mais les écarts entre eux sautent dans tous les sens.
+
+18
+00:01:41,800 --> 00:01:46,100
+Regardons de plus près, entre 87 et 133.
+
+19
+00:01:46,100 --> 00:01:51,700
+Les écarts : 8, 4, 2, 4, 2, 4… puis 14 !
+
+20
+00:01:51,700 --> 00:01:56,633
+Entre 113 et 127 : un grand trou, aucun premier.
+
+21
+00:01:56,633 --> 00:02:00,933
+Juste avant, 101 et 103 se collent presque.
+
+22
+00:02:00,933 --> 00:02:05,233
+Aucune formule simple ne donne le premier suivant.
+
+23
+00:02:05,233 --> 00:02:09,867
+On ne sait pas prédire le prochain nombre premier.
+
+24
+00:02:09,867 --> 00:02:14,400
+Ils semblent tomber au hasard… Et pourtant !
+
+25
+00:02:16,000 --> 00:02:20,933
+Comptons les premiers jusqu'à x. On note ce nombre π(x).
+
+26
+00:02:20,933 --> 00:02:28,500
+Chaque nouveau premier ajoute une marche : c'est un escalier.
+
+27
+00:02:28,500 --> 00:02:33,767
+Gauss avait deviné une courbe lisse qui le suit : li(x).
+
+28
+00:02:33,767 --> 00:02:38,700
+Mais il reste un écart entre l'escalier et la courbe.
+
+29
+00:02:38,700 --> 00:02:43,667
+Toute la question : jusqu'où cet écart peut-il grandir ?
+
+30
+00:02:43,667 --> 00:02:50,633
+Prenons du recul : jusqu'à 10 000.
+
+31
+00:02:50,633 --> 00:02:55,267
+De loin, l'escalier et la courbe se confondent presque.
+
+32
+00:02:55,267 --> 00:03:00,833
+Zoomons maintenant sur l'écart lui-même.
+
+33
+00:03:00,833 --> 00:03:05,800
+Il hésite et zigzague, mais reste dans une zone étroite.
+
+34
+00:03:05,800 --> 00:03:10,433
+L'hypothèse de Riemann revient exactement à dire ceci :
+
+35
+00:03:10,433 --> 00:03:15,067
+l'écart ne grandit jamais beaucoup plus vite que √x.
+
+36
+00:03:15,067 --> 00:03:20,333
+Et on sait qu'il ne peut pas rester beaucoup plus petit.
+
+37
+00:03:20,333 --> 00:03:25,967
+Bref : les premiers seraient aussi réguliers que possible.
+
+38
+00:03:25,967 --> 00:03:31,867
+Exemple : jusqu'à 1 milliard, il y a
+50 847 534 nombres premiers.
+
+39
+00:03:31,867 --> 00:03:37,067
+La courbe li(x) ne se trompe que d'environ 1 700.
+
+40
+00:03:38,667 --> 00:03:42,977
+1859 : Bernhard Riemann publie un court article.
+
+41
+00:03:42,977 --> 00:03:48,567
+Il y étudie une drôle de machine : la fonction zêta, ζ.
+
+42
+00:03:48,567 --> 00:03:53,837
+Euler l'avait vu : on peut l'écrire avec tous les premiers.
+
+43
+00:03:53,837 --> 00:03:59,107
+Riemann l'étend à tout le plan des nombres « complexes ».
+
+44
+00:03:59,107 --> 00:04:05,673
+Chaque point du sol est un nombre s.
+La hauteur montre la taille de ζ(s).
+
+45
+00:04:05,673 --> 00:04:10,340
+(Les sommets trop hauts sont aplatis, pour la lisibilité.)
+
+46
+00:04:10,340 --> 00:04:20,007
+Regardez ces creux, où le paysage touche le sol…
+
+47
+00:04:20,007 --> 00:04:25,907
+Là, ζ vaut exactement zéro.
+Ce sont les « zéros » de ζ.
+
+48
+00:04:25,907 --> 00:04:34,473
+Survolons-les. Où sont-ils placés ?
+
+49
+00:04:34,473 --> 00:04:44,440
+Tous exactement sur la même droite : Re(s) = 1/2.
+
+50
+00:04:44,440 --> 00:04:50,373
+L'hypothèse : TOUS les zéros « non triviaux »
+sont sur cette droite.
+
+51
+00:04:50,373 --> 00:04:55,373
+(Il existe aussi des zéros « triviaux », faciles, ailleurs.)
+
+52
+00:04:55,373 --> 00:05:01,007
+On a vérifié plus de 10 000 milliards de zéros par ordinateur.
+
+53
+00:05:01,007 --> 00:05:06,640
+Tous sur la droite ! Mais il y en a une infinité.
+
+54
+00:05:06,640 --> 00:05:11,540
+Vérifier des milliards de cas, ce n'est pas démontrer.
+
+55
+00:05:13,133 --> 00:05:18,400
+Riemann découvre un lien stupéfiant entre ces zéros
+et les premiers.
+
+56
+00:05:18,400 --> 00:05:25,567
+Chaque zéro produit une onde, comme une note de musique.
+
+57
+00:05:25,567 --> 00:05:31,467
+Plus le zéro est haut sur la droite,
+plus sa note est aiguë.
+
+58
+00:05:31,467 --> 00:05:37,967
+Additionnons ces notes, et écoutons ce qu'elles jouent.
+
+59
+00:05:37,967 --> 00:05:42,900
+En gris : le vrai escalier π(x) qu'on veut retrouver.
+
+60
+00:05:42,900 --> 00:05:47,533
+En bleu : la courbe lisse, sans aucune onde.
+
+61
+00:05:47,533 --> 00:05:50,300
+Ajoutons 1 onde…
+
+62
+00:05:50,300 --> 00:05:53,867
+Puis 5 ondes…
+
+63
+00:05:53,867 --> 00:05:58,433
+Puis 20 ondes : les marches se dessinent.
+
+64
+00:05:58,433 --> 00:06:06,000
+Et 100 ondes : l'escalier des premiers réapparaît !
+
+65
+00:06:06,000 --> 00:06:10,300
+Chaque marche tombe pile sur un nombre premier.
+
+66
+00:06:10,300 --> 00:06:15,567
+Les zéros sont la « partition » cachée des nombres premiers.
+
+67
+00:06:15,567 --> 00:06:19,867
+C'est pour ça que leur position compte autant.
+
+68
+00:06:19,867 --> 00:06:25,467
+Si un seul zéro quittait la droite, sa note serait trop forte…
+
+69
+00:06:25,467 --> 00:06:30,100
+…et l'escalier s'écarterait bien plus de la courbe lisse.
+
+70
+00:06:30,100 --> 00:06:35,600
+Sur la droite, toutes les notes restent les plus douces possibles.
+
+71
+00:06:37,200 --> 00:06:42,150
+Un paiement par carte, un site web, un message WhatsApp…
+
+72
+00:06:42,150 --> 00:06:46,133
+Tout cela est protégé par du chiffrement.
+
+73
+00:06:46,133 --> 00:06:51,083
+Beaucoup de ces systèmes reposent sur de grands nombres premiers.
+
+74
+00:06:51,083 --> 00:06:56,667
+Exemple : une clé RSA cache deux premiers
+d'environ 300 chiffres chacun.
+
+75
+00:06:56,667 --> 00:07:01,617
+Pour en fabriquer, l'ordinateur tire un grand nombre au hasard…
+
+76
+00:07:01,617 --> 00:07:06,233
+…puis il teste s'il est premier. C'est très rapide.
+
+77
+00:07:06,233 --> 00:07:12,133
+Le test de Miller-Rabin répond « premier »
+avec une chance d'erreur infime.
+
+78
+00:07:12,133 --> 00:07:16,767
+Ça fonctionne très bien, depuis des décennies. Aucun souci.
+
+79
+00:07:16,767 --> 00:07:23,350
+Mais la réponse est « très probable », pas « certaine ».
+
+80
+00:07:23,350 --> 00:07:27,633
+Avec l'hypothèse de Riemann (version « généralisée »)…
+
+81
+00:07:27,633 --> 00:07:32,583
+…le test de Miller devient une preuve, rapide et garantie.
+
+82
+00:07:32,583 --> 00:07:38,533
+(D'autres tests certains existent, mais ils sont souvent plus lents.)
+
+83
+00:07:38,533 --> 00:07:43,783
+Attention, idée reçue : une preuve ne casserait PAS
+le chiffrement.
+
+84
+00:07:43,783 --> 00:07:49,033
+Sa sécurité repose sur d'autres problèmes, comme factoriser.
+Pas sur Riemann.
+
+85
+00:07:49,033 --> 00:07:56,133
+Ce qui changerait : certaines garanties passeraient
+de « très probable » à « certain ».
+
+86
+00:07:57,900 --> 00:08:03,500
+Des mathématiciens ont écrit des milliers de résultats
+qui commencent ainsi :
+
+87
+00:08:03,500 --> 00:08:08,133
+« Si l'hypothèse de Riemann est vraie, alors… »
+
+88
+00:08:08,133 --> 00:08:12,433
+Par exemple : un test de primalité garanti…
+
+89
+00:08:12,433 --> 00:08:16,733
+…une borne précise sur l'écart de l'escalier π(x)…
+
+90
+00:08:16,733 --> 00:08:20,733
+…des écarts entre premiers jamais trop grands…
+
+91
+00:08:20,733 --> 00:08:25,800
+…ou une inégalité sur les diviseurs des entiers.
+
+92
+00:08:25,800 --> 00:08:31,367
+Tous ces résultats attendent, suspendus à une seule question.
+
+93
+00:08:31,367 --> 00:08:41,433
+Un mur entier de « si ».
+Et si quelqu'un démontrait Riemann ?
+
+94
+00:08:41,433 --> 00:08:45,767
+Tous basculeraient d'un coup : « VRAI ».
+
+95
+00:08:45,767 --> 00:08:51,800
+Un seul théorème en débloquerait des milliers.
+
+96
+00:08:51,800 --> 00:08:57,400
+Et la méthode de preuve serait sans doute un trésor en soi.
+
+97
+00:08:57,400 --> 00:09:03,633
+Pour Fermat, la preuve de Wiles, en 1994,
+a créé des outils tout neufs.
+
+98
+00:09:03,633 --> 00:09:08,500
+Une preuve de Riemann ouvrirait sûrement des chemins inconnus.
+
+99
+00:09:12,100 --> 00:09:15,467
+Résumons ce qu'apporterait une preuve.
+
+100
+00:09:15,467 --> 00:09:20,767
+1. Les premiers sont aussi réguliers que possible : c'est sûr.
+
+101
+00:09:20,767 --> 00:09:26,067
+2. Des milliers de théorèmes « si Riemann… » deviennent vrais.
+
+102
+00:09:26,067 --> 00:09:32,000
+3. Des algorithmes passent
+de « très probable » à « garanti ».
+
+103
+00:09:32,000 --> 00:09:36,333
+4. Et sans doute de nouveaux outils mathématiques.
+
+104
+00:09:36,333 --> 00:09:40,667
+Posée en 1859, l'hypothèse n'est toujours pas démontrée.
+
+105
+00:09:40,667 --> 00:09:45,967
+L'Institut Clay offre 1 million de dollars
+à qui la démontrera.
+
+106
+00:09:45,967 --> 00:09:51,267
+Une dinguerie ? Oui : percer l'ordre caché des nombres premiers.
+
+107
+00:09:51,267 --> 00:09:56,800
+La partition est là, sous nos yeux. Reste à la comprendre.

@@ -1,0 +1,70 @@
+{
+ "duration": 72.19999999999895,
+ "subs": [
+  {
+   "start": 0.7999999999999999,
+   "end": 6.3999999999999995,
+   "text": "Des mathématiciens ont écrit des milliers de résultats\nqui commencent ainsi :"
+  },
+  {
+   "start": 6.3999999999999995,
+   "end": 11.033333333333331,
+   "text": "« Si l'hypothèse de Riemann est vraie, alors… »"
+  },
+  {
+   "start": 11.033333333333331,
+   "end": 15.333333333333329,
+   "text": "Par exemple : un test de primalité garanti…"
+  },
+  {
+   "start": 15.333333333333329,
+   "end": 19.63333333333334,
+   "text": "…une borne précise sur l'écart de l'escalier π(x)…"
+  },
+  {
+   "start": 19.63333333333334,
+   "end": 23.63333333333337,
+   "text": "…des écarts entre premiers jamais trop grands…"
+  },
+  {
+   "start": 23.63333333333337,
+   "end": 28.700000000000287,
+   "text": "…ou une inégalité sur les diviseurs des entiers."
+  },
+  {
+   "start": 28.700000000000287,
+   "end": 34.266666666666985,
+   "text": "Tous ces résultats attendent, suspendus à une seule question."
+  },
+  {
+   "start": 34.266666666666985,
+   "end": 44.33333333333311,
+   "text": "Un mur entier de « si ».\nEt si quelqu'un démontrait Riemann ?"
+  },
+  {
+   "start": 44.33333333333311,
+   "end": 48.666666666666195,
+   "text": "Tous basculeraient d'un coup : « VRAI »."
+  },
+  {
+   "start": 48.666666666666195,
+   "end": 54.699999999999186,
+   "text": "Un seul théorème en débloquerait des milliers."
+  },
+  {
+   "start": 54.699999999999186,
+   "end": 60.29999999999915,
+   "text": "Et la méthode de preuve serait sans doute un trésor en soi."
+  },
+  {
+   "start": 60.29999999999915,
+   "end": 66.53333333333237,
+   "text": "Pour Fermat, la preuve de Wiles, en 1994,\na créé des outils tout neufs."
+  },
+  {
+   "start": 66.53333333333237,
+   "end": 71.39999999999901,
+   "text": "Une preuve de Riemann ouvrirait sûrement des chemins inconnus."
+  }
+ ]
+}

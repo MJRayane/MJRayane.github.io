@@ -1,0 +1,80 @@
+{
+ "duration": 82.66666666666585,
+ "subs": [
+  {
+   "start": 0.7999999999999999,
+   "end": 5.7333333333333325,
+   "text": "Comptons les premiers jusqu'à x. On note ce nombre π(x)."
+  },
+  {
+   "start": 5.7333333333333325,
+   "end": 13.299999999999972,
+   "text": "Chaque nouveau premier ajoute une marche : c'est un escalier."
+  },
+  {
+   "start": 13.299999999999972,
+   "end": 18.56666666666667,
+   "text": "Gauss avait deviné une courbe lisse qui le suit : li(x)."
+  },
+  {
+   "start": 18.56666666666667,
+   "end": 23.500000000000107,
+   "text": "Mais il reste un écart entre l'escalier et la courbe."
+  },
+  {
+   "start": 23.500000000000107,
+   "end": 28.466666666666804,
+   "text": "Toute la question : jusqu'où cet écart peut-il grandir ?"
+  },
+  {
+   "start": 28.466666666666804,
+   "end": 35.43333333333345,
+   "text": "Prenons du recul : jusqu'à 10 000."
+  },
+  {
+   "start": 35.43333333333345,
+   "end": 40.06666666666675,
+   "text": "De loin, l'escalier et la courbe se confondent presque."
+  },
+  {
+   "start": 40.06666666666675,
+   "end": 45.6333333333331,
+   "text": "Zoomons maintenant sur l'écart lui-même."
+  },
+  {
+   "start": 45.6333333333331,
+   "end": 50.59999999999962,
+   "text": "Il hésite et zigzague, mais reste dans une zone étroite."
+  },
+  {
+   "start": 50.59999999999962,
+   "end": 55.23333333333292,
+   "text": "L'hypothèse de Riemann revient exactement à dire ceci :"
+  },
+  {
+   "start": 55.23333333333292,
+   "end": 59.86666666666622,
+   "text": "l'écart ne grandit jamais beaucoup plus vite que √x."
+  },
+  {
+   "start": 59.86666666666622,
+   "end": 65.13333333333286,
+   "text": "Et on sait qu'il ne peut pas rester beaucoup plus petit."
+  },
+  {
+   "start": 65.13333333333286,
+   "end": 70.7666666666661,
+   "text": "Bref : les premiers seraient aussi réguliers que possible."
+  },
+  {
+   "start": 70.7666666666661,
+   "end": 76.66666666666592,
+   "text": "Exemple : jusqu'à 1 milliard, il y a\n50 847 534 nombres premiers."
+  },
+  {
+   "start": 76.66666666666592,
+   "end": 81.8666666666659,
+   "text": "La courbe li(x) ne se trompe que d'environ 1 700."
+  }
+ ]
+}

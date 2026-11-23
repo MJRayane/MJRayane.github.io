@@ -1,0 +1,80 @@
+{
+ "duration": 80.53333333333325,
+ "subs": [
+  {
+   "start": 0.8,
+   "end": 5.75,
+   "text": "Un paiement par carte, un site web, un message WhatsApp…"
+  },
+  {
+   "start": 5.75,
+   "end": 9.733333333333333,
+   "text": "Tout cela est protégé par du chiffrement."
+  },
+  {
+   "start": 9.733333333333333,
+   "end": 14.683333333333334,
+   "text": "Beaucoup de ces systèmes reposent sur de grands nombres premiers."
+  },
+  {
+   "start": 14.683333333333334,
+   "end": 20.266666666666666,
+   "text": "Exemple : une clé RSA cache deux premiers\nd'environ 300 chiffres chacun."
+  },
+  {
+   "start": 20.266666666666666,
+   "end": 25.216666666666665,
+   "text": "Pour en fabriquer, l'ordinateur tire un grand nombre au hasard…"
+  },
+  {
+   "start": 25.216666666666665,
+   "end": 29.833333333333332,
+   "text": "…puis il teste s'il est premier. C'est très rapide."
+  },
+  {
+   "start": 29.833333333333332,
+   "end": 35.73333333333338,
+   "text": "Le test de Miller-Rabin répond « premier »\navec une chance d'erreur infime."
+  },
+  {
+   "start": 35.73333333333338,
+   "end": 40.366666666666674,
+   "text": "Ça fonctionne très bien, depuis des décennies. Aucun souci."
+  },
+  {
+   "start": 40.366666666666674,
+   "end": 46.94999999999993,
+   "text": "Mais la réponse est « très probable », pas « certaine »."
+  },
+  {
+   "start": 46.94999999999993,
+   "end": 51.23333333333326,
+   "text": "Avec l'hypothèse de Riemann (version « généralisée »)…"
+  },
+  {
+   "start": 51.23333333333326,
+   "end": 56.18333333333326,
+   "text": "…le test de Miller devient une preuve, rapide et garantie."
+  },
+  {
+   "start": 56.18333333333326,
+   "end": 62.133333333333255,
+   "text": "(D'autres tests certains existent, mais ils sont souvent plus lents.)"
+  },
+  {
+   "start": 62.133333333333255,
+   "end": 67.38333333333325,
+   "text": "Attention, idée reçue : une preuve ne casserait PAS\nle chiffrement."
+  },
+  {
+   "start": 67.38333333333325,
+   "end": 72.63333333333325,
+   "text": "Sa sécurité repose sur d'autres problèmes, comme factoriser.\nPas sur Riemann."
+  },
+  {
+   "start": 72.63333333333325,
+   "end": 79.73333333333325,
+   "text": "Ce qui changerait : certaines garanties passeraient\nde « très probable » à « certain »."
+  }
+ ]
+}
